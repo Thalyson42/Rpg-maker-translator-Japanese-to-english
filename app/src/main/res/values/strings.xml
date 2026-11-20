@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">RPG Maker Translator</string>
+    <string name="app_title">RPG Maker Translator (JA → EN)</string>
+    <string name="version_fmt">Version %1$s</string>
+
+    <string name="btn_in">1. Choose game folder (the data folder or the game root)</string>
+    <string name="btn_out">2. Choose output folder</string>
+    <string name="no_folder">No folder selected</string>
+    <string name="main_translator">Main translator</string>
+    <string name="rb_mlkit">ML Kit (free, offline, no key)</string>
+    <string name="rb_deepl">DeepL (needs an API key)</string>
+    <string name="rb_google">Google Cloud (needs an API key)</string>
+    <string name="hint_deepl">DeepL key (optional)</string>
+    <string name="hint_google">Google key (optional)</string>
+    <string name="cb_fallback">If the quota runs out, continue with the other translators (and free ML Kit)</string>
+    <string name="cb_plugins">Also translate plugin menu text and apply known plugin fixes (choose the game root folder)</string>
+    <string name="hint_width">Characters per dialogue line</string>
+    <string name="btn_start">3. Translate</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_clear">Clear translation cache</string>
+    <string name="status_ready">Ready</string>
+
+    <string name="cache_cleared">Cache cleared.</string>
+    <string name="choose_folders">Choose the input and output folders.</string>
+    <string name="folder_access">Could not access the selected folders.</string>
+    <string name="need_deepl">Enter the DeepL key or choose ML Kit (free).</string>
+    <string name="need_google">Enter the Google key or choose ML Kit (free).</string>
+    <string name="done_toast">Translation complete! Translation cache cleared.</string>
+    <string name="partial_toast">Stopped by a quota limit. Partial output saved; run again to continue.</string>
+    <string name="cancelled">Cancelled. Progress was saved to the cache.</string>
+</resources>
